@@ -1,0 +1,33 @@
+/*This is the main CSS file for all html pages.*/
+html{
+    font-size: 22px;
+    /*Style for the fonts on the HTML page*/
+}
+body{
+    background-color: #333;
+    color: whitesmoke;
+    /*Style for the color of HTML page and text color*/
+}
+
+a{
+    color: aliceblue;
+    /*Standard color for links*/
+}
+
+a:visited{
+    color: lightgrey;
+    /*Color for links that have already been clicked on/visited. */
+}
+
+a:hover, a:active{
+    color: #eee
+    /*Color for links when mouse hovers on it.*/
+}
+
+table, tr, th, td, caption
+{/*Styling for the table*/
+    border: 1px solid #eee;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
